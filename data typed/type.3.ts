@@ -1,25 +1,3 @@
-// any
-let notSure: any = 4;
-notSure = 'maybe a string instead';
-notSure = false;
-notSure = 8;
-
-console.log(notSure.toFixed());
-
-let prettySure: Object = 4;
-prettySure.toFixed();
-console.log(prettySure);
-
-// void
-const warnUser = (): void => {
-  console.log('voidvoid');
-};
-
-warnUser();
-
-let unusable: void = undefined;
-let unusable2: void = null;
-
 // null undefined
 let u: undefined = undefined;
 let n: null = null;
@@ -32,9 +10,7 @@ const error = (message: string): never => {
 // error('abcdefg');
 
 const infiniteLoop = (): never => {
-  while (true) {
-
-  }
+  while (true) { }
 };
 
 // Object

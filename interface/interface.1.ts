@@ -1,10 +1,10 @@
-interface SquareConfig {
+interface ISquareConfig {
   color?: string;
   width?: number;
 }
 
-const createSquare = (config: SquareConfig): { color: string; area: number } => {
-  let newSquare = { color: 'white', area: 100 };
+const createSquare = (config: ISquareConfig): { color: string; area: number } => {
+  const newSquare = { color: 'white', area: 100 };
   if (config.color) {
     newSquare.color = config.color;
   }

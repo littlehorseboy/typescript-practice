@@ -1,3 +1,4 @@
+"use strict";
 var createSquare = function (config) {
     var newSquare = { color: 'white', area: 100 };
     if (config.color) {

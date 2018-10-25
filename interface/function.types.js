@@ -1,3 +1,7 @@
+"use strict";
+// interface ISearchFunc {
+//   (source: string, subString: string): boolean;
+// }
 var mySearch;
 mySearch = function (source, subString) {
     var result = source.search(subString);

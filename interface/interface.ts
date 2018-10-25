@@ -1,8 +1,8 @@
-interface LabelledValue {
+interface ILabelledValue {
   label: string;
 }
 
-const printLabel = (labelledObj: LabelledValue) => {
+const printLabel = (labelledObj: ILabelledValue) => {
   console.log(labelledObj.label);
 };
 
