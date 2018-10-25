@@ -1,3 +1,4 @@
+"use strict";
 var getCounter = function () {
     var counter = function (start) { };
     counter.interval = 123;
